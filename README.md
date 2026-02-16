@@ -76,14 +76,12 @@ csv_cleaner_tool/
 - pip
 
 ### Setup Virtual Environment
-
 ```
 python -m venv .venv
 source .venv/Scripts/activate
 ```
 
 Install dependencies:
-
 ```
 pip install -r requirements.txt
 ```
@@ -91,9 +89,7 @@ pip install -r requirements.txt
 ---
 
 ## Running the Tool
-
 From the project root:
-
 ```
 python -m src.cli \
   --input data/input/messy_transactions.csv \
@@ -143,7 +139,6 @@ inside the data/output/ directory.
 This project includes unit tests to validate cleaning logic.
 
 From the project root:
-
 ```
 pytest
 ```
@@ -151,6 +146,13 @@ pytest
 The project uses a pytest.ini file to properly configure the Python path when using a src directory structure.
 
 ---
+
+## Streamlit App (UI Mode)
+
+Run the browser-based UI locally:
+`
+streamlit run streamlit_app.py
+`
 
 ## Configuration Philosophy
 
