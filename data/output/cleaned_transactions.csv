@@ -1,0 +1,6 @@
+date,description,amount,category,notes
+2025-01-05,  Shell Gas  ,45.2, Fuel ,
+,Home Depot,120.0, Supplies,Receipt Missing
+, Zoom Subscription ,15.99,Software,
+,Starbucks,6.5, Meals ,
+2025-02-01,Starbucks,6.5,Meals,Duplicate-Ish
