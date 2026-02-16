@@ -54,11 +54,13 @@ csv_cleaner_tool/
 │   ├── input/
 │   └── output/
 ├── src/
+│   ├── __init__.py
 │   ├── cleaner.py
 │   ├── profiler.py
 │   └── cli.py
 ├── tests/
 │   └── test_cleaner.py
+├── .gitignore
 ├── requirements.txt
 ├── pytest.ini
 └── README.md
