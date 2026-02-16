@@ -76,6 +76,7 @@ csv_cleaner_tool/
 - pip
 
 ### Setup Virtual Environment
+
 ```
 python -m venv .venv
 source .venv/Scripts/activate
@@ -89,6 +90,7 @@ pip install -r requirements.txt
 ---
 
 ## Running the Tool
+
 From the project root:
 ```
 python -m src.cli \
@@ -153,6 +155,8 @@ Run the browser-based UI locally:
 `
 streamlit run streamlit_app.py
 `
+
+---
 
 ## Configuration Philosophy
 
